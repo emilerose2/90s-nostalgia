@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box; 
+  }
+  
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
 * {
     font-family: roboto;
     color: #222;
@@ -5,4 +13,10 @@
     font-size: 110%;
     background-color: white;
 }
+
+
+* {
+    margin: 0;
+}
+
 
